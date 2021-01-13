@@ -1,5 +1,8 @@
 import Link from 'next/link';
+import {useRouter} from 'next/router'
+
 export default function IndexLogin(props){
+    const route = useRouter()
     return(
         <main>
             <div className="form-container">
@@ -15,11 +18,13 @@ export default function IndexLogin(props){
                         <label><input type="password" id="password" placeholder="Escribe tu contraseña aqui"/></label>
                     </div>
                     <div><input className="input-enviar" type="submit" value="Iniciar Sessión"/></div>
-                    <Link href="/Registro"><a>Regístrate en comunity |</a></Link>
+                    <Link href="/Registro/Registro"><a>Regístrate en comunity |</a></Link>
                     <Link href="Registro"><a> ¿Olvidaste la contraseña?</a></Link>
 
                 </form>
+                
             </div>
+            
         </main>
     )
 }
