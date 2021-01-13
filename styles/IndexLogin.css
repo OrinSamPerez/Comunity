@@ -1,0 +1,49 @@
+
+  
+label{
+    text-align: center;
+}
+input{
+    padding: 15px;
+    border: 1px solid white;
+    font-size: 18px;
+    width: 75%;
+    text-align: center;
+
+
+}
+form h1{
+    margin-bottom: 20px;
+}
+form img{
+    
+    width: 100px;
+    height: 100px;
+}
+.input-enviar{
+    border-radius: 20px;
+    border: 2px solid rgb(34, 216, 240);
+    width: 300px;
+    background-color: white;
+    cursor: grab;
+    margin-bottom: 15px;
+}
+.input-enviar:hover{
+    color: rgb(34, 216, 240);
+}
+form a{
+    color:  rgb(0, 93, 105);
+}
+
+.form-container{
+    
+    margin:auto;
+    align-items: center;
+    text-align: center;
+    width: 450px;
+    height: 450px;
+    margin-top:35px;
+
+
+   
+}
